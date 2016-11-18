@@ -13,7 +13,7 @@ ms.devlang: dotnet
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: required
-ms.date: 10/19/2016
+ms.date: 11/18/2016
 ms.author: vturecek
 
 ---
@@ -100,7 +100,7 @@ Finally, describe the endpoints that are required for the service in the [servic
     <Endpoints>
       <Endpoint Name="WebServiceEndpoint" Protocol="http" Port="80" />
       <Endpoint Name="OtherServiceEndpoint" Protocol="tcp" Port="8505" />
-    <Endpoints>
+    </Endpoints>
 </Resources>
 
 ```
